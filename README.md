@@ -1,38 +1,31 @@
-# sv
+# Pixel 2D Game
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A simple 2D pixel game created for learning and experimentation purposes using SvelteKit and JavaScript.
 
-## Creating a project
+## Overview
 
-If you're seeing this, you've probably already done this step. Congrats!
+This project demonstrates fundamental game development techniques by building a 2D side-scrolling game. The player can move, jump, and experience physics-based movement and collision detection, with immersive animations and parallax scrolling background layers to enhance the visual experience.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Key Features
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Player Movement**: The player can move left, right, and jump. Movement includes velocity and momentum, simulating realistic physics, with collision detection to prevent the player from moving outside the game bounds.
+  
+- **Player Animations**: The player has animations for different states: idle, running, jumping, and falling, with frame-based sprite handling for smooth transitions.
+  
+- **Keyboard Controls**: Player movement is controlled through arrow keys (`←` and `→` for left and right) and spacebar for jumping. The game responds fluidly to keyboard input with physics applied to the player's actions.
 
-## Developing
+## Technologies Used
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **SvelteKit**: The game is built using SvelteKit, a modern framework for building web applications with Svelte.
+- **JavaScript**: The game logic is written in JavaScript, handling player movement, animations, collision detection, and background scrolling.
 
-```bash
-npm run dev
+## Future Improvements
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Adding new levels with varied challenges and environments.
+- Implementing enemies and other obstacles for the player to avoid or overcome.
+- Sound effects and background music for enhanced immersion.
+- A score system to track the player's progress.
 
-## Building
+## Credits
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This project was inspired by and based on the [2D Game Development Course by Samuel E. Mezzasalma](https://github.com/samuelemezzasalma/js-2d-gamedev-course.git).
