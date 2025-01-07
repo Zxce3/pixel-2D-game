@@ -1,5 +1,9 @@
 # Pixel 2D Game
 
+https://github.com/user-attachments/assets/f5109c1f-ef24-4f82-b953-6e69d39e74fa
+
+
+
 A simple 2D pixel game created for learning and experimentation purposes using SvelteKit and JavaScript.
 
 ## Overview
